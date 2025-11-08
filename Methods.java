@@ -57,12 +57,17 @@ public class Methods {
         Methods m = new Methods();
 
         System.out.println("-- Method examples --");
+
         System.out.println("add(int, int): " + m.add(3, 4));
+
         System.out.println("add(double, double): " + m.add(2.5, 1.5));
+
         m.printMessage("Hello from printMessage()");
 
         System.out.println("\n-- OOP: classes, inheritance, polymorphism --");
+
         Person p = new Person("Alice");
+        
         Person s = new Student("Bob", 101); // polymorphic reference
         p.speak();
         s.speak();
