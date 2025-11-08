@@ -1,5 +1,8 @@
 
 
+  
+
+
 class Calculator {
 
     public int add(int a, int b) {
@@ -14,7 +17,7 @@ public class JavaClass {
         
 
         Calculator calc = new Calculator();
-        
+
         int sum = calc.add(5, 10);
         System.out.println("Sum: " + sum);
     }
