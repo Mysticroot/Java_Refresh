@@ -1,5 +1,13 @@
 
-
+class student {
+    int rollno;
+    String name;
+    
+    student(int rollno, String name) {
+        this.rollno = rollno;
+        this.name = name;
+    }
+}
 
 public class Array {
     
@@ -76,6 +84,23 @@ public class Array {
                 System.out.print(matrix1[i][j] + " ");
             }
             System.out.println();
+        }
+
+
+        //custom student object array 
+        System.out.println("\n-- Array of Student objects --");
+
+        student s1= new student(101, "Alice");
+        student s2= new student(102, "Bob");
+        student s3= new student(103, "Charlie");
+
+        student[] students =new student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+
+        for (int i = 0; i < students.length; i++) {
+            System.out.println("Student Roll No: " + students[i].rollno + ", Name: " + students[i].name);
         }
     }
 }
