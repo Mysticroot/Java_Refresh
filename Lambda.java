@@ -14,5 +14,9 @@ public class Lambda {
 
     public static int performOperation(int a, int b, LambdaInterface operation) {
         return operation.operation(a, b);
+
+        
     }
 }
+
+
