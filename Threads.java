@@ -16,6 +16,7 @@ class A extends Thread {
 }
 }
 
+
 class B extends Thread {
     public void run() {
        for(int i=0;i<5;i++) {
@@ -35,11 +36,11 @@ public class Threads {
         A a = new A();
         B b = new B();
 
-       
         a.start();
         b.start();
     }
 }
+
 
 
 //in case of implementing Runnable interface
@@ -70,9 +71,9 @@ class B implements Runnable {
                e.printStackTrace();
            }
        }
-   }
+    }
 }
-*/```
+*/
 
 //and main method
 /*  
@@ -162,3 +163,4 @@ public class Threads {
     }
 }   
 */
+    

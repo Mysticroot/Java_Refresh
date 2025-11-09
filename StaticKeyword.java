@@ -42,11 +42,11 @@ public class StaticKeyword {
         
        Mobile obj=new Mobile();
          obj.model="Galaxy S21";
-         obj.brand="Apple"; // modifying static variable using instance (not recommended)
+         Mobile.brand="Apple"; // modifying static variable using instance (not recommended)
 
          Mobile obj1=new Mobile();
          obj1.model="iPhone 13";
-         obj1.brand="OnePlus"; // modifying static variable using instance (not recommended)
+         Mobile.brand="OnePlus"; // modifying static variable using instance (not recommended)
 
 
          obj.showModel(); // Model: Galaxy S21

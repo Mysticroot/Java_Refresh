@@ -28,12 +28,18 @@ class B extends A{
           System.out.println("in B "+n);
      }
 
+     public void show() {
+         System.out.println("in B");
+     }
+
 }
 
 public class SuperKeyword {
     public static void main(String[] args) {
         
         B obj =new B();
+
+        obj.show();
 
 
     }
